@@ -9,7 +9,7 @@ function RegistrationForm() {
   const handleSubmit = (e)=> {
     e.preventDefault();
     if(/^(?=.*\d)/.test(name)) alert("Name should nt contain any numbers")
-    else if (!/^\d{10}/.test(mobile)) alert("Mobile number should contain 10 digits and shoud be numeral")
+    else if (!/^(?!.*(\d)\1{3})[6-9]\d{9}$/.test(mobile)) alert("Invalid Mobile Number")
     else if( !/^(?=.*\d)(?=.*[!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?])(?=.*[a-z])(?=.*[A-Z]).{8}.+/.test(password ))
       {
         if(!/^(?=.*\d)/.test(password)) alert("Atleast One digit")
