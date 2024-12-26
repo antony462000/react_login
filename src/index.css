@@ -1,4 +1,4 @@
-/* src/index.css */
+
 body {
   font-family: Arial, sans-serif;
   background-color: #b5cdeb;
@@ -11,7 +11,7 @@ div {
   background-color: rgb(234, 244, 214);
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(11, 243, 104, 0.1);
+  /* box-shadow: 0 2px 10px rgba(11, 243, 104, 0.1); */
 }
 
 

@@ -15,7 +15,7 @@ function App() {
       
       {isLogin ? <LoginForm/> : <RegistrationForm/> }
       <button onClick={toggleForm}>
-      {isLogin ? 'New User? REGISTER' : 'SAlready Registered! LOGIN'}
+      {isLogin ? 'New User? REGISTER' : 'Already Registered! LOGIN'}
       </button>
       </div>
   );
